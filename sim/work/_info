@@ -1,0 +1,333 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/sim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1550886188
+!i10b 1
+!s100 ijVXn`j8gkb?JEem_D[5R0
+IFmlaVl2OWJ3IbnPYCZHM:3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+R0
+Z4 w1549998153
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/adder.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/adder.sv
+L0 3
+Z5 OL;L;10.4c;61
+r1
+!s85 0
+31
+Z6 !s108 1550886188.000000
+Z7 !s107 /users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/RISC_V.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/Datapath.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/Controller.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/RegFile.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/alu.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/ALUController.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/instructionmemory.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/datamemory.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/mux2.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/imm_Gen.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/flopr.sv|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/adder.sv|
+Z8 !s90 -quiet|-64|-sv|-f|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/rtl.cfg|+define+__SIM__|
+!i113 0
+Z9 o-quiet -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -quiet -sv +define+__SIM__ -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valu
+R1
+R2
+!i10b 1
+!s100 2:mJhVThh3=D6S>eMfZ8B3
+I`2i94g3[Pc=NA:mSMSzoT0
+R3
+!s105 alu_sv_unit
+S1
+R0
+w1550880530
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/alu.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/alu.sv
+Z11 L0 23
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vALUController
+R1
+R2
+!i10b 1
+!s100 ;N@XTQhE9GzH0S`5W]cM^3
+IP=1]VVKVKa=<Fb`cKAFBE1
+R3
+!s105 ALUController_sv_unit
+S1
+R0
+w1550876622
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/ALUController.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/ALUController.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@a@l@u@controller
+vController
+R1
+R2
+!i10b 1
+!s100 Szfj_TlR3YR>UnC?AfoQ21
+IMV`7QA2geSaSRkDWSWnb70
+R3
+!s105 Controller_sv_unit
+S1
+R0
+w1550877791
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/Controller.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/Controller.sv
+Z12 L0 22
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@controller
+vdatamemory
+R1
+R2
+!i10b 1
+!s100 ^0SziWAA@CIW<E[COVJKB0
+IfJ_II:S@mXX@o1n_fWm3U0
+R3
+!s105 datamemory_sv_unit
+S1
+R0
+w1550886186
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/datamemory.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/datamemory.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vDatapath
+R1
+R2
+!i10b 1
+!s100 ^8CziP^CT@cb7@RjPm=He0
+IfRe0ogCijARRcOIjZU<A70
+R3
+!s105 Datapath_sv_unit
+S1
+R0
+w1550880330
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/Datapath.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/Datapath.sv
+R12
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@datapath
+vflopr
+R1
+R2
+!i10b 1
+!s100 B6BS^>`X=WIeQVmG9i5VI0
+I241>TjSRhXMWICWdWR9ZO3
+R3
+!s105 flopr_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/flopr.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/flopr.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vimm_Gen
+R1
+R2
+!i10b 1
+!s100 U50iW][b@8gg2>_lSGKHa1
+Ik0He?1WY^IWnCF]<4`>nU1
+R3
+!s105 imm_Gen_sv_unit
+S1
+R0
+w1550561311
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/imm_Gen.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/imm_Gen.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+nimm_@gen
+vinstructionmemory
+R1
+R2
+!i10b 1
+!s100 kA_F5:XEY:PJK[ER0=1460
+Ic2[Zi>bXG>OYc8zcSf<Ec2
+R3
+!s105 instructionmemory_sv_unit
+S1
+R0
+w1550002881
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/instructionmemory.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/instructionmemory.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vmux2
+R1
+R2
+!i10b 1
+!s100 @X6>V^M3YMfab:XdY67SE1
+IU2=SM`@no117QZ9fmE`G:1
+R3
+!s105 mux2_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/mux2.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/mux2.sv
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vRegFile
+R1
+R2
+!i10b 1
+!s100 2cGb6>@mnQP5YGGLJFYg]1
+II0cVIiZIaLXT0g79RendZ1
+R3
+!s105 RegFile_sv_unit
+S1
+R0
+R4
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/RegFile.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/RegFile.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@reg@file
+vriscv
+R1
+R2
+!i10b 1
+!s100 V[?7Pnk:3>aQSGW6e7f`a3
+IIIiLcZHAIZk`@>T:[l<=40
+R3
+!s105 RISC_V_sv_unit
+S1
+R0
+w1550610576
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/RISC_V.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/design/RISC_V.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vtb_top
+R1
+R2
+!i10b 1
+!s100 IB2R7Tdz_J13X9z]?95VO1
+I0i`>iLXJ;jZS9;K`29[Z90
+R3
+!s105 tb_top_sv_unit
+S1
+R0
+w1550006925
+8/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/verif/tb_top.sv
+F/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/verif/tb_top.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 /users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/verif/tb_top.sv|
+!s90 -quiet|-64|-sv|-f|/users/ugrad/2017/fall/amthu/112L/Labs/Lab3/Lab_Files/verif/tb.cfg|-work|work|
+!i113 0
+o-quiet -sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Ttb_top_opt
+R2
+VF<M]BP]?zQcKz`I<FSD=I3
+04 6 4 work tb_top fast 0
+o-quiet +acc -work work
+ntb_top_opt
+OL;O;10.4c;61
