@@ -56,17 +56,17 @@ module alu#(
                 4'b1001:        // SRAI & SRA
                     ALUResult = SrcB >>> SrcB[4:0];
                 4'b1010:        // BEQ
-                    ALUResult = ($signed(SrcA) == $signed(SrcB)) ? 'b0: 'b1;
+                    ALUResult = ~($signed(SrcA) == $signed(SrcB));
                 4'b1011:        // BNE
-                    ALUResult = ($signed(SrcA) != $signed(SrcB)) ? 'b0: 'b1;
+                    ALUResult = ~($signed(SrcA) != $signed(SrcB));
                 4'b1100:        // BLT
-                    ALUResult = ($signed(SrcA) < $signed(SrcB)) ? 'b0 : 'b1;
+                    ALUResult = ~($signed(SrcA) < $signed(SrcB));
                 4'b1101:        // BGE
-                    ALUResult = ($signed(SrcA) >= $signed(SrcB)) ? 'b0 : 'b1;
+                    ALUResult = ~($signed(SrcA) >= $signed(SrcB));
                 4'b1110:        // BLTU
-                    ALUResult = (SrcA < SrcB) ? 'b0 : 'b1;
+                    ALUResult = ~(SrcA < SrcB);
                 4'b1111:        // BGEU
-                    ALUResult = (SrcA >= SrcB) ? 'b0 : 'b1;
+                    ALUResult = ~(SrcA >= SrcB);
                 default:
                     ALUResult = 'b0;
             endcase
