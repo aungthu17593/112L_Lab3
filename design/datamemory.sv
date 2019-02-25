@@ -14,22 +14,22 @@ module datamemory#(
     );
     
     `ifdef __SIM__
-        logic [3:0] [DATA_W/4-1:0] mem [(2**DM_ADDRESS)-1:0];
+        logic [7:0] [DATA_W/8-1:0] mem [(2**DM_ADDRESS)-1:0];
         
         always_comb 
         begin
             if(MemRead) begin
                 case(Funct3) 
                     3'b000:
-                        rd = {mem[a][0][3] ? 28'b1 : 28'b0 , mem[a][0]};
+                        rd = {mem[a][0][7] ? 24'b1 : 24'b0, mem[a][0]};
                     3'b001:
-                        rd = {mem[a][3][3] ? 16'b1 : 16'b0 , mem[a][3:0]};
+                        rd = {mem[a][1][7] ? 16'b1 : 16'b0, mem[a][1:0]};
                     3'b010:
                         rd = mem[a];
                     3'b100:
-                        rd = {28'b0 , mem[a][0]};
+                        rd = {24'b0, mem[a][0]};
                     3'b101:
-                        rd = {16'b0 , mem[a][3:0]};
+                        rd = {16'b0, mem[a][1:0]};
                     default:    
                         rd = 'b0;
                 endcase
@@ -40,9 +40,9 @@ module datamemory#(
             if (MemWrite) begin
                 case(Funct3) 
                     3'b000:
-                        mem[a][0] = wd[3:0];
+                        mem[a][0] = wd[7:0];
                     3'b001:
-                        mem[a][3:0] = wd[15:0];
+                        mem[a][1:0] = wd[15:0];
                     3'b010:
                         mem[a] = wd;
                     default:
